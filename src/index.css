@@ -1,0 +1,98 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a font family to the entire app */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa; /* Light grey background */
+  color: #343a40; /* Dark grey text color */
+}
+
+/* Ensure code elements have a monospaced font */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Apply some margin and padding to headings */
+h1, h2 {
+  margin: 0.5em 0;
+  color: #007bff; /* Bootstrap primary blue */
+}
+
+/* Style lists to remove bullet points and padding */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container for consistent padding */
+.container {
+  padding: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff; /* White background for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Style for each menu item */
+.menu-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 0.5em 0;
+  padding: 1em;
+  background-color: #f1f1f1; /* Light grey background for items */
+}
+
+.menu-item h2 {
+  margin-top: 0;
+}
+
+.menu-item p {
+  margin: 0.5em 0;
+}
+
+/* Style for buttons */
+button {
+  background-color: #28a745; /* Bootstrap success green */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+button:disabled {
+  background-color: #6c757d; /* Disabled grey color */
+  cursor: not-allowed;
+}
+
+/* Add some margin to bottom of components */
+.component {
+  margin-bottom: 1.5em;
+}
